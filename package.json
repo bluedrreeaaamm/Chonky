@@ -14,5 +14,6 @@
   "resolutions": {
     "**/typescript": "4.2.2",
     "**/immer": "8.0.4"
-  }
+  },
+  "version": "0.0.1"
 }
