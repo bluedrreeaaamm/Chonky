@@ -1,3 +1,4 @@
+import type {} from 'redux-thunk/extend-redux'
 import { useMemo } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { Nullable } from 'tsdef';
