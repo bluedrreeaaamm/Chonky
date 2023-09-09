@@ -87,9 +87,9 @@ export const useFileDrag = (file: Nullable<FileData>) => {
     );
     const collect = useCallback(monitor => ({ isDragging: monitor.isDragging() }), []);
     const [{ isDragging: dndIsDragging }, drag, preview] = useDragIfAvailable({
-        item,
+        type: item.type,
         canDrag,
-        begin: onDragStart,
+        item: onDragStart,
         // @ts-ignore
         end: onDragEnd,
         collect,
