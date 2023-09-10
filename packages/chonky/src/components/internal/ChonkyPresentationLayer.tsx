@@ -23,7 +23,7 @@ import { DnDFileListDragLayer } from '../file-list/DnDFileListDragLayer';
 import { HotkeyListener } from './HotkeyListener';
 
 export interface ChonkyPresentationLayerProps {
-    children: React.ReactNode;
+    children?: React.ReactNode;
 }
 
 export const ChonkyPresentationLayer: React.FC<ChonkyPresentationLayerProps> = ({
